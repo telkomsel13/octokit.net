@@ -18,6 +18,18 @@
         }
       },
       {
+        "label": "Format",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+          "format",
+          "-w",
+          "${workspaceFolder}/Octokit.sln"
+        ],
+        "problemMatcher": "$msCompile",
+        "group": "build"
+      },
+      {
         "label": "Test New Things",
         "command": "dotnet",
         "type": "process",
