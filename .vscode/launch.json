@@ -8,7 +8,7 @@
       "name": ".NET Core Launch (console)",
       "type": "coreclr",
       "request": "launch",
-      "preLaunchTask": "build",
+      "preLaunchTask": "Build Everything",
       "program": "${workspaceFolder}/src/Octokit.CodeGen/bin/Debug/netcoreapp3.1/Octokit.CodeGen.dll",
       "args": [],
       "cwd": "${workspaceFolder}",
